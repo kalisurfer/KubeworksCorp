@@ -1,0 +1,64 @@
+.work_wrapper{
+	display:block;
+	float:left;
+	width:318px;
+	height:192px;
+	padding:5px 0 0 5px;
+	background:transparent url(../images/work/background_image_work.png) no-repeat left top;
+}
+ 
+ .work {
+	float: left;
+	height: 169px;
+	margin: 0 9px 9px 0;
+	overflow: hidden;
+	position: relative;
+	width: 308px;
+}
+
+ .work a {
+	display: block;
+	position: relative;
+}
+
+.work a img {
+	position: relative;
+	top: -5px;
+	left: -5px;
+	width: 345px;
+	height: 195px;
+}
+
+.work a span {
+	display: none;
+	font-size: 16px;
+	font-weight:400;
+	text-transform:uppercase;
+	height: 350px;
+	padding: 118px 0 0 20px;
+	position: absolute;
+	text-align: left;
+	text-decoration: none;
+	width: 600px;
+	z-index: 1;
+}
+
+.work a span em {
+	display: block;
+	font-size: 13px;
+	font-weight: 300;
+	text-transform:capitalize;
+	font-style:normal;
+	color:#269ec7;
+}
+
+
+.dark-background {
+	color: #fff;
+	background: url(../images/work/background_hover.png) no-repeat left top;
+}
+
+.dark-background em {
+	color: #ccc;
+}
+

@@ -1,0 +1,99 @@
+/* contact */
+	
+#contact h3 {
+	font-size:19px;
+	font-style:normal;
+	font-weight:500;
+	margin:0 0 0 20px;
+	padding:16px 0 0 16px;
+	color:#656565;
+	width:233px;
+	height:39px;
+	background:transparent url(../images/bg_shoutOut.jpg) no-repeat top left;
+	}
+fieldset{border:none;padding:0px 0 0 0px;}
+fieldset p {position:relative;}
+input{
+	width:247px;
+	height:22px;
+	background:white;
+	border:1px solid white;
+	padding:5px;color:gray;
+	margin:0 0 15px; 0;
+	}
+label {
+	display:block;
+	margin:0 0 5px 0;
+	font-size:13px;
+	font-style:normal;
+	font-weight:400;
+	}
+textarea{
+	width:594px;
+	height:200px;
+	background:white;
+	border:1px solid white;
+	padding:5px;
+	color:gray;
+	}
+#message_error{position:absolute;top:-3px;left:65px;}
+#name_error, #email_error, #subject_error{position:absolute;top:20px;left:270px;}
+
+#mail_fail, #mail_success{position:absolute;top:5px;left:360px;z-index:500;}
+
+#send_message{
+	cursor:pointer;
+	float:right;
+	margin:0px 0px 0 0;
+	width:91px;
+	height:33px;
+	border:none;
+	background:transparent url(../images/contact/btn_send.gif) no-repeat top left;
+}
+#send_message:hover{background: transparent url(../images/contact/btn_send_over.gif) no-repeat top left;}
+.error{display:none;}
+.success{display:none;}
+
+#about_me, #contact_me{
+	width:410px;
+	padding:0 20px;
+	float:left;
+	}
+#about_me a {
+	color:#23afc5;
+	}
+#about_me a:hover {
+	color:white;
+	text-decoration:underline;
+	}
+	
+#about_me h4, #contact_me h4 {
+	color:#c4c4c4;
+	font-weight:400;
+	font-size:22px;
+	margin:50px 0 40px 0;
+	}
+#about_me h2{
+	color:#bcbcbc;
+	padding:0 0 8px 0;
+	}
+#about_me p{
+	line-height:1.4;
+	font-size:12px;
+	}
+#about_me li{
+	float:left;
+	margin:20px 35px 0 0;
+	}
+#about_me dd{
+	padding:0 0 2px 0;
+	font-size:12px;
+	}
+	
+#about_me p {color:#a4a4a4;font-size:12px;padding:0 0 15px 0;}
+#about_me h1{font-size:26px;font-weight:300;padding:30px 0 18px 0;}
+#about_me h2{color:#676767;font-weight:400;font-size:14px;padding:0;}
+#about_me h3{margin:0 0 55px 0;color:#a4a4a4;font-weight:400;font-size:14px;float:right;text-align:right;padding:0;}
+
+
+

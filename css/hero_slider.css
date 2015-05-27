@@ -1,0 +1,130 @@
+/* structure */
+html {
+    min-width: 800px;
+}
+
+#promo_wrapper {
+    overflow: hidden;
+}
+
+#promos .slide-panel.active {
+    visibility: visible;
+}
+
+#promos .slide-panel {
+    background-color: gray;
+    color: #DDD;
+}
+
+#promos {
+    position: relative;
+    width: 100%;
+    height: 793px;
+    margin: 0 auto;
+}
+
+#promos .slide-panel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 793px;
+    visibility: hidden;
+	
+}
+#promos .slide-panel .information{
+	position:relative;
+	width:462px;
+	height:440px;
+	padding: 260px 0 0 538px;
+	margin: 0 auto;
+}
+
+#promos .slide-panel .information h2{
+	padding:0px;
+	margin: 0 0 20px 0;
+	font-size:65px;
+	font-weight:500;
+	color:#363634;
+	line-height:61px;
+	text-transform:capitalize;
+	}
+#promos .slide-panel .information p{
+	font-weight:300;
+	font-size:13px;
+	color:#636363;
+	line-height:18px;
+	}
+#promos .slide-panel .information a{
+	display:block;
+	padding: 8px 35px 15px 0px;
+	margin:0px 0 0 0;
+	width: 100px;
+	height:15px;
+	font-weight:500;
+	font-size:15px;
+	color:#646464;
+	text-transform:capitalize;
+	background:transparent url(../images/promos/arrow.png) no-repeat 90px 10px;	
+	}
+#promos .slide-panel .information a:hover{color:#269ec7;}
+
+#promos #slide_one{
+	background:url(../images/promos/promo_01.jpg) no-repeat center top;
+	}
+#promos #slide_two{
+	background:pink;
+	}
+#promos #slide_three{
+	background:#d3b7e0;
+	}
+	
+	
+	
+	
+/* controls */
+#arrow_controls {
+    position:absolute;
+	top:200px;
+	left:0px;
+	width:100%;
+	z-index:2000;
+}
+
+#arrow_left{
+	
+	}
+#full-slider-nav-left, #full-slider-nav-right {
+    display: inline-block;
+    height: 0;
+    width: 0;
+    margin-left: 15px;
+    border: 20px solid transparent;
+    cursor: pointer;
+}
+#next, #prev {
+	width:60px;
+	height:0px;
+	padding-top:60px;
+	overflow:hidden;
+	}
+#next{
+	float:right;
+	background: url(../images/promos/arrow_right.gif) no-repeat top left; 
+	box-shadow:1px 0px 1px #aaa inset;
+  	-moz-box-shadow:1px 0px 1px #aaa inset;
+  	-webkit-box-shadow:1px 0px 1px #aaa inset;
+	}
+#prev{
+	float:left;
+	background: url(../images/promos/arrow_left.gif) no-repeat top left;
+	box-shadow:-1px 0px 1px #aaa inset;
+  	-moz-box-shadow:-1px 0px 1px #aaa inset;
+  	-webkit-box-shadow:-1px 0px 1px #aaa inset;
+	}
+#next:hover{
+	background: url(../images/promos/arrow_right_hover.gif) no-repeat top left; 
+	}
+#prev:hover{
+	background: url(../images/promos/arrow_left_hover.gif) no-repeat top left;
+	}
